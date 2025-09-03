@@ -96,6 +96,7 @@ export default function HomePage() {
     { id: 5, name: "David Brown", rollNumber: "005", class: "CSE-A" },
   ])
 
+  
   const [studentAttendance, setStudentAttendance] = useState({
     totalClasses: 0,
     attendedClasses: 0,
